@@ -1,0 +1,29 @@
+{
+  "name": "flowza-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FLOWZA backend - TZS <-> USDT/USDC on Base, powered by nTZS, Supabase and Firebase Auth",
+  "scripts": {
+    "dev": "next dev -p 4000",
+    "build": "next build",
+    "start": "next start -p 4000",
+    "typecheck": "tsc --noEmit",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "firebase-admin": "^12.5.0",
+    "@supabase/supabase-js": "^2.45.4",
+    "viem": "^2.21.19",
+    "zod": "^3.23.8",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "@types/node": "^20.14.2",
+    "@types/react": "^18.3.3",
+    "@types/uuid": "^9.0.8"
+  }
+}
